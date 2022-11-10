@@ -1,7 +1,9 @@
+import HomeCard from './Share/HomeCard';
+
 function App() {
   return (
     <div>
-      <h1>Hi</h1>
+      <HomeCard />
     </div>
   );
 }

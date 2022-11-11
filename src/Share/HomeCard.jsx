@@ -85,7 +85,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Phone
                 </p>
-                <p className="dark:text-white">+123 456 7890</p>
+                <p className="dark:text-white">+1 719-760-9297</p>
               </div>
             </div>
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -96,7 +96,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Email
                 </p>
-                <p className="dark:text-white">example@mail.com</p>
+                <p className="dark:text-white">gabrieldumaug@gmail.com</p>
               </div>
             </div>
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -107,7 +107,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Location
                 </p>
-                <p className="dark:text-white">Hong kong china</p>
+                <p className="dark:text-white">Denver Colorado</p>
               </div>
             </div>
             <div className="flex  py-2.5">
@@ -118,7 +118,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Birthday
                 </p>
-                <p className="dark:text-white">May 27, 1990</p>
+                <p className="dark:text-white">December 5, 1997</p>
               </div>
             </div>
           </div>

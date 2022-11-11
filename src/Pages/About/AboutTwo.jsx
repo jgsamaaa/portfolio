@@ -17,7 +17,7 @@ const AboutTwo = () => {
 
       <div className=" lg:rounded-2xl bg-white dark:bg-[#111111]">
         <div data-aos="fade">
-          <div className="px-2 pt-12  md:py-12 sm:px-5 md:px-10 lg:px-14">
+          <div className="px-2 pt-12 md:py-12 sm:px-5 md:px-10 lg:px-14">
             {/* About page title */}
             <h2 className="after-effect after:left-52">About Me</h2>
             <div className="lg:hidden">
@@ -45,7 +45,7 @@ const AboutTwo = () => {
           </div>
           {/* End about descriptions */}
 
-          <div className="px-2 pb-12  sm:px-5 md:px-10 lg:px-14">
+          <div className="px-2 pb-12 sm:px-5 md:px-10 lg:px-14">
             <h3 className="text-[35px] dark:text-white font-medium pb-5">
               What I do!
             </h3>
@@ -58,11 +58,6 @@ const AboutTwo = () => {
             </div>
           </div>
           {/* service provide end */}
-
-          <div className="px-2 sm:px-5 md:px-10 lg:px-14 ">
-            {/* Slick Slider call here  */}
-            <SliderCommon />
-          </div>
 
           {/* Common Footer call here */}
           <Footer bg={'#FFFF'} />

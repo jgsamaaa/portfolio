@@ -1,11 +1,8 @@
 import React from 'react';
+import CommonBlog from './CommonBlog';
 
 const BlogTwo = () => {
-  return (
-    <div>
-      <h1>BlogTwo</h1>
-    </div>
-  );
+  return <CommonBlog items={false} count={4} />;
 };
 
 export default BlogTwo;

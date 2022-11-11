@@ -3,7 +3,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ContextProvider from './Context/ContextProvider';
-import About from './Pages/About/About';
 import AboutTwo from './Pages/About/AboutTwo';
 import BlogTwo from './Pages/Blog/BlogTwo';
 import ContactTwo from './Pages/Contact/ContactTwo';

@@ -1,9 +1,10 @@
 import React from 'react';
+import CommonPortfilo from './CommonPortfilo';
 
 const PortfiloTwo = () => {
   return (
     <div>
-      <h1>PortfiloTwo</h1>
+      <CommonPortfilo items={8} condition={false} />
     </div>
   );
 };

@@ -338,36 +338,76 @@ const AllData = () => {
     },
   ];
 
-  // Menu items for Homepage Two
-  const menuItemTwo = [
+  // Menu items for Homepage One
+  const menuItem = [
     {
       id: '01',
-      name: 'About',
-      link: '/homeTwo/about',
-      icon: <FaRegUser />,
+      name: 'Home',
+      link: '/home/homePage',
+      icon: <AiOutlineHome />,
     },
     {
       id: '02',
+      name: 'About',
+      link: '/home/about',
+      icon: <FaRegUser />,
+    },
+    {
+      id: '06',
       name: 'Resume',
-      link: '/homeTwo/resume',
+      link: '/home/resume',
       icon: <CgNotes />,
     },
     {
       id: '03',
       name: 'Works',
-      link: '/homeTwo/works',
+      link: '/home/works',
       icon: <FiCodesandbox />,
     },
     {
       id: '04',
       name: 'Blogs',
-      link: '/homeTwo/blogs',
+      link: '/home/blogs',
       icon: <FaBlogger />,
     },
     {
       id: '05',
       name: 'Contact',
-      link: '/homeTwo/contact',
+      link: '/home/contact',
+      icon: <RiContactsBookLine />,
+    },
+  ];
+
+  // Menu items for Homepage Two
+  const menuItemTwo = [
+    {
+      id: '01',
+      name: 'About',
+      link: '/about',
+      icon: <FaRegUser />,
+    },
+    {
+      id: '02',
+      name: 'Resume',
+      link: '/resume',
+      icon: <CgNotes />,
+    },
+    {
+      id: '03',
+      name: 'Works',
+      link: '/works',
+      icon: <FiCodesandbox />,
+    },
+    {
+      id: '04',
+      name: 'Blogs',
+      link: '/blogs',
+      icon: <FaBlogger />,
+    },
+    {
+      id: '05',
+      name: 'Contact',
+      link: '/contact',
       icon: <RiContactsBookLine />,
     },
   ];

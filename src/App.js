@@ -1,9 +1,9 @@
-import HomeCard from './Share/HomeCard';
+import HomeTwo from './Pages/Home/HomeTwo';
 
 function App() {
   return (
     <div>
-      <HomeCard />
+      <HomeTwo />
     </div>
   );
 }

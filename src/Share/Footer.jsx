@@ -20,7 +20,7 @@ const Footer = ({ bg, condition }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          ib-themes
+          Gabriel Dumaug
         </a>
         .
       </p>

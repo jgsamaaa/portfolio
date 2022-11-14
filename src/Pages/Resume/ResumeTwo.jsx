@@ -33,7 +33,7 @@ const ResumeTwo = () => {
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
               <div className="col-span-1">
                 <h4 className="mb-6 text-5xl font-medium dark:text-white">
-                  Working Skills
+                  Knowledges
                 </h4>
                 {/* Experience percent element */}
                 {lineArray.map((item, i) => (
@@ -45,19 +45,20 @@ const ResumeTwo = () => {
 
               <div className="col-span-1">
                 <h4 className="mb-8 text-5xl font-medium dark:text-white">
-                  Knowledges
+                  Working Skills
                 </h4>
 
                 {/* Knowledges items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">HTML5</button>
+                  <button className="resume-btn">CSS3</button>
+                  <button className="resume-btn">JavaScript</button>
+                  <button className="resume-btn">ReactJS</button>
+                  <button className="resume-btn">TailwindCSS</button>
+                  <button className="resume-btn">NextJS</button>
+                  <button className="resume-btn">Chackra UI</button>
+                  <button className="resume-btn">GIT</button>
                 </div>
               </div>
 

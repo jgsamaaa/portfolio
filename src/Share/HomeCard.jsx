@@ -33,10 +33,9 @@ const HomeCard = () => {
           {/* Social Links */}
 
           <div className="flex justify-center space-x-3">
-            
             {/* drop link add here */}
             <a
-              href="https://dribbble.com/"
+              href="https://github.com/jgsamaaa"
               target="_blank"
               rel="noopener noreferrer"
             >

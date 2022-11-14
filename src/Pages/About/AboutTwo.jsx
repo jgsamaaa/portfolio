@@ -28,15 +28,16 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="leading-7 text-gray-lite dark:text-color-910">
-                    I'm Creative Director and UI/UX Designer from Sydney,
-                    Australia, working in web development and print media. I
-                    enjoy turning complex problems into simple, beautiful and
-                    intuitive designs.
+                    Creating new things with high attention to details and
+                    always open to learn new skills. I like to craft beautiful
+                    frontend products with great user experience.
                   </p>
                   <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                    My aim is to bring across your message and identity in the
-                    most creative way. I created web design for many famous
-                    brand companies.
+                    I am a person who is very optimistic in every trial that I
+                    might be facing and not afraid of being criticized.
+                    Fascinated with how intricate programming can be I was
+                    quickly drawn to learn it. I enjoy turning complex problems
+                    into simple, beautiful and intuitive designs.
                   </p>
                 </div>
                 <div></div>

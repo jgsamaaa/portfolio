@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   FaCalendarAlt,
-  FaDribbble,
+  FaGithub,
   FaEnvelopeOpenText,
   FaFacebookF,
   FaLinkedinIn,
@@ -27,45 +27,26 @@ const HomeCard = () => {
             James Gabriel Dumaug
           </h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]  ">
-            Ui/Ux Designer
+            Web Developer
           </h3>
 
           {/* Social Links */}
 
           <div className="flex justify-center space-x-3">
-            {/* facebook link add here */}
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1773EA]">
-                <FaFacebookF />
-              </span>
-            </a>
-            {/* twitter link add here */}
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1C9CEA]">
-                <FaTwitter />
-              </span>
-            </a>
+            
             {/* drop link add here */}
             <a
               href="https://dribbble.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#e14a84] ">
-                <FaDribbble />
+              <span className="socialbtn text-[#1C9CEA]">
+                <FaGithub />
               </span>
             </a>
             {/* linkedin link add here */}
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/jamesgabrieldumaug/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -50,9 +50,7 @@ const CommonPortfilo = ({ condition, items }) => {
         <div data-aos="fade">
           <div className="container mb-8   px-4 sm:px-5 md:px-10 lg:px-[60px]">
             <div className="py-12">
-              <h2 className="after-effect after:left-48 lg:mt-0">
-                Portfolio
-              </h2>
+              <h2 className="after-effect after:left-48 lg:mt-0">Portfolio</h2>
 
               {/* Portfilo fillter tab start */}
 
@@ -181,9 +179,15 @@ const CommonPortfilo = ({ condition, items }) => {
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
                         <FiUser className="hidden mr-2 text-lg sm:block" />
-                        Client :&nbsp;
-                        <span className="font-medium ">
-                          {singleData?.client}
+                        Code :&nbsp;
+                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
+                          <a
+                            href={singleData?.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {singleData?.code}
+                          </a>
                         </span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">

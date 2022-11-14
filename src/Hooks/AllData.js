@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 // for work_images
-import work1 from '../assets/images/work_images/1.jpg';
+import work1 from '../assets/images/work_images/1.png';
 import work2 from '../assets/images/work_images/2.jpg';
 import work3 from '../assets/images/work_images/3.jpg';
 import work4 from '../assets/images/work_images/4.jpg';
@@ -10,7 +10,7 @@ import work7 from '../assets/images/work_images/7.jpg';
 import work8 from '../assets/images/work_images/8.jpg';
 import work9 from '../assets/images/work_images/9.jpg';
 // works small images
-import workSmall1 from '../assets/images/work_images/small/1.jpg';
+import workSmall1 from '../assets/images/work_images/small/1.png';
 import workSmall2 from '../assets/images/work_images/small/2.jpg';
 import workSmall3 from '../assets/images/work_images/small/3.jpg';
 import workSmall4 from '../assets/images/work_images/small/4.jpg';
@@ -141,17 +141,18 @@ const AllData = () => {
   const workItems = [
     {
       id: '1',
-      tag: 'UI/UX',
-      title: 'Chul urina',
+      tag: 'Web Design',
+      title: 'Tattoo Website',
       img: work1,
       imgSmall: workSmall1,
       bg: '#FFF0F0',
-      client: 'Envato',
-      langages: 'Photoshop, Figma',
-      link: 'https://www.envato.com',
-      linkText: 'www.envato.com',
+      code: 'Source Code',
+      github: 'https://github.com/jgsamaaa/tattooshopwebsite',
+      langages: 'ReactJS, Tailwind CSS ',
+      link: 'https://gabrieltattoo.netlify.app/',
+      linkText: 'Tattoo Website',
       description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia placeat magnam possimus iusto blanditiis pariatur labore explicabo quo repellat hic dolorum numquam asperiores, voluptatum fugiat reiciendis aspernatur, non, odio aperiam voluptas ex tempora vitae. Dolor, consequatur quidem! Quas magni distinctio dolorum dolore natus, vel numquam accusamus. Nostrum eligendi recusandae qui tempore deserunt!',
+        'Inspired by my friends tattoo business, I created this website to practice my TailwindCSS skills. This website is made with ReactJs, Tailwind CSS, framer-motion and a little bit of SASS.',
     },
     {
       id: '2',

@@ -12,10 +12,10 @@ const CommonContact = ({ condition }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_n4mkhz9',
-        'template_ugoztxr',
+        'service_x052wd4',
+        'template_a7lceuo',
         form.current,
-        'user_vYmDSd9PwIuRXUQEDjYwN'
+        'ayHKYpie3RvV5wzBa'
       )
       .then(
         (result) => {

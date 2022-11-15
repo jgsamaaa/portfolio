@@ -34,16 +34,9 @@ import blogSmall1 from '../assets/images/blog_images/small/1.jpg';
 import blogSmall3 from '../assets/images/blog_images/small/3.jpg';
 import blogSmall5 from '../assets/images/blog_images/small/5.jpg';
 
-import img1 from '../assets/images/slider/brand-1.png';
-import img2 from '../assets/images/slider/brand-2.png';
-import img3 from '../assets/images/slider/brand-3.png';
-import img4 from '../assets/images/slider/brand-4.png';
-import img5 from '../assets/images/slider/brand-5.png';
 //  icon use as img here
 import icon from '../assets/images/icons/icon-1.svg';
-import icon1 from '../assets/images/icons/icon-2.svg';
 import icon2 from '../assets/images/icons/icon-3.svg';
-import icon3 from '../assets/images/icons/icon-4.svg';
 import icon4 from '../assets/images/icons/icon-5.svg';
 import icon5 from '../assets/images/icons/icon-6.svg';
 // contact image
@@ -413,20 +406,6 @@ const AllData = () => {
     },
   ];
 
-  // Slider image for Clients
-  const sliderImg = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-  ];
-
   // experience items for about page
   const experienceArray = [
     {
@@ -602,7 +581,6 @@ const AllData = () => {
     NavLink,
     menuItemTwo,
     experienceArray,
-    sliderImg,
     resumeArray,
     lineArray,
     contactArray,

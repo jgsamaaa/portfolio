@@ -3,11 +3,9 @@ import {
   FaCalendarAlt,
   FaGithub,
   FaEnvelopeOpenText,
-  FaFacebookF,
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaMobileAlt,
-  FaTwitter,
 } from 'react-icons/fa';
 import img from '../assets/images/about/avatar.jpg';
 import downloadIcon from '../assets/images/download.png';

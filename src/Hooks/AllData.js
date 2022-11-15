@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 // for work_images
 import work1 from '../assets/images/work_images/1.png';
-import work2 from '../assets/images/work_images/2.jpg';
+import work2 from '../assets/images/work_images/2.png';
 import work3 from '../assets/images/work_images/3.jpg';
 import work4 from '../assets/images/work_images/4.jpg';
 import work5 from '../assets/images/work_images/5.jpg';
@@ -11,7 +11,7 @@ import work8 from '../assets/images/work_images/8.jpg';
 import work9 from '../assets/images/work_images/9.jpg';
 // works small images
 import workSmall1 from '../assets/images/work_images/small/1.png';
-import workSmall2 from '../assets/images/work_images/small/2.jpg';
+import workSmall2 from '../assets/images/work_images/small/2.png';
 import workSmall3 from '../assets/images/work_images/small/3.jpg';
 import workSmall4 from '../assets/images/work_images/small/4.jpg';
 import workSmall5 from '../assets/images/work_images/small/5.jpg';
@@ -148,7 +148,7 @@ const AllData = () => {
       bg: '#FFF0F0',
       code: 'Source Code',
       github: 'https://github.com/jgsamaaa/tattooshopwebsite',
-      langages: 'ReactJS, Tailwind CSS ',
+      langages: 'ReactJS, TailwindCSS ',
       link: 'https://gabrieltattoo.netlify.app/',
       linkText: 'Tattoo Website',
       description:
@@ -157,16 +157,16 @@ const AllData = () => {
     {
       id: '2',
       tag: 'Web Design',
-      title: 'Aura Dione',
+      title: 'Bistro Cafe',
       img: work2,
       imgSmall: workSmall2,
       bg: '#FFF3FC',
-      client: 'Themeforest',
-      langages: 'HTML, CSS, Javascript',
-      link: 'https://www.themeforest.net',
-      linkText: 'themeforest.net',
+      code: 'Source Code',
+      langages: 'ReactJS, TailwindCSS',
+      link: 'https://gabrielrestaurant.netlify.app/',
+      linkText: 'Bistro Cafe Website',
       description:
-        '  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.',
+        'A restaurant website made with ReactJs and TailwindCSS. Making this was hard and fun.',
     },
     {
       id: '3',

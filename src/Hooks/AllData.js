@@ -420,7 +420,7 @@ const AllData = () => {
       id: '3',
       icon: icon2,
       title: 'Photography',
-      des: 'I like taking pictures of everythign that interest me especially Animals and Nature.',
+      des: 'I like taking pictures of everything that interest me especially Animals and Nature.',
       color: '#8774FF',
       bg: '#FCF4FF',
     },

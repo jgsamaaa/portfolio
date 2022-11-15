@@ -28,7 +28,7 @@ const CommonPortfilo = ({ condition, items }) => {
   useEffect(() => {
     setTest('All');
     handleData('All');
-  }, []);
+  }, [handleData]);
   const handleModle = (id) => {
     handleModelData(id);
   };
@@ -149,7 +149,7 @@ const CommonPortfilo = ({ condition, items }) => {
             <Modal
               isOpen={isOpen}
               onRequestClose={() => setIsOpen(false)}
-              className="flex items-center p-4 my-8 outline-none  md:p-8 rounded-2xl"
+              className="flex items-center p-4 my-8 outline-none md:p-8 rounded-2xl"
             >
               <div className=" w-full md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
                 <div className=" overflow-y-scroll max-h-[80vh] no-scrollbar ">

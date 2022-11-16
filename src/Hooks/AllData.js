@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import work1 from '../assets/images/work_images/1.png';
 import work2 from '../assets/images/work_images/2.png';
 import work3 from '../assets/images/work_images/3.png';
-import work4 from '../assets/images/work_images/4.jpg';
+import work4 from '../assets/images/work_images/4.png';
 import work5 from '../assets/images/work_images/5.jpg';
 import work6 from '../assets/images/work_images/6.jpg';
 import work7 from '../assets/images/work_images/7.jpg';
@@ -13,7 +13,7 @@ import work9 from '../assets/images/work_images/9.jpg';
 import workSmall1 from '../assets/images/work_images/small/1.png';
 import workSmall2 from '../assets/images/work_images/small/2.png';
 import workSmall3 from '../assets/images/work_images/small/3.png';
-import workSmall4 from '../assets/images/work_images/small/4.jpg';
+import workSmall4 from '../assets/images/work_images/small/4.png';
 import workSmall5 from '../assets/images/work_images/small/5.jpg';
 import workSmall6 from '../assets/images/work_images/small/6.jpg';
 import workSmall7 from '../assets/images/work_images/small/7.jpg';
@@ -45,7 +45,6 @@ import iconEmail from '../assets/images/contact/email 1.png';
 import iconMap from '../assets/images/contact/map 1.png';
 import { CgNotes } from 'react-icons/cg';
 import { FaBlogger, FaRegUser, FaAward } from 'react-icons/fa';
-import { AiOutlineHome } from 'react-icons/ai';
 import { FiCodesandbox } from 'react-icons/fi';
 import { RiContactsBookLine } from 'react-icons/ri';
 import { Link, useLocation } from 'react-router-dom';
@@ -179,17 +178,17 @@ const AllData = () => {
     },
     {
       id: '4',
-      tag: 'Video',
-      title: 'Chul urina',
+      tag: 'Weather App',
+      title: 'Weather App',
       img: work4,
       imgSmall: workSmall4,
       bg: '#E9FAFF',
-      client: 'Envato',
-      langages: 'After Effect',
-      link: 'https://www.envato.com',
-      linkText: 'www.envato.com',
-      description:
-        '  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.',
+      code: 'Source Code',
+      githubCode: 'https://github.com/jgsamaaa/weatherapppublic',
+      langages: 'ReactJS, OpenWeather API',
+      link: 'https://weatherforecasttoday.netlify.app/',
+      linkText: 'Weather Today',
+      description: '  I made this project to be more familiar with using API.',
     },
     {
       id: '5',

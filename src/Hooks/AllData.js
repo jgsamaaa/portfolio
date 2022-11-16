@@ -4,7 +4,7 @@ import work1 from '../assets/images/work_images/1.png';
 import work2 from '../assets/images/work_images/2.png';
 import work3 from '../assets/images/work_images/3.png';
 import work4 from '../assets/images/work_images/4.png';
-import work5 from '../assets/images/work_images/5.jpg';
+import work5 from '../assets/images/work_images/5.png';
 import work6 from '../assets/images/work_images/6.jpg';
 import work7 from '../assets/images/work_images/7.jpg';
 import work8 from '../assets/images/work_images/8.jpg';
@@ -14,7 +14,7 @@ import workSmall1 from '../assets/images/work_images/small/1.png';
 import workSmall2 from '../assets/images/work_images/small/2.png';
 import workSmall3 from '../assets/images/work_images/small/3.png';
 import workSmall4 from '../assets/images/work_images/small/4.png';
-import workSmall5 from '../assets/images/work_images/small/5.jpg';
+import workSmall5 from '../assets/images/work_images/small/5.png';
 import workSmall6 from '../assets/images/work_images/small/6.jpg';
 import workSmall7 from '../assets/images/work_images/small/7.jpg';
 import workSmall8 from '../assets/images/work_images/small/8.jpg';
@@ -192,17 +192,18 @@ const AllData = () => {
     },
     {
       id: '5',
-      tag: 'UI/UX',
-      title: 'Chul urina',
+      tag: 'Web Design',
+      title: 'QR Code Generator',
       img: work5,
       imgSmall: workSmall5,
       bg: '#FFFAE9',
-      client: 'Envato',
-      langages: 'Photoshop',
-      link: 'https://www.envato.com',
-      linkText: 'www.envato.com',
+      code: 'Source Code',
+      githubCode: 'https://github.com/jgsamaaa/qrcode',
+      langages: 'ReactJS, TailwindCSS',
+      link: 'https://qrcodegeneratorproject.netlify.app/',
+      linkText: 'QR Code Generator',
       description:
-        '  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.',
+        '  A simple ReactJS with Tailwindcss that can generate a QR Code, you can download the QR Code image as well.',
     },
     {
       id: '6',

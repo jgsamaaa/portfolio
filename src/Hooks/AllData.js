@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 // for work_images
 import work1 from '../assets/images/work_images/1.png';
 import work2 from '../assets/images/work_images/2.png';
-import work3 from '../assets/images/work_images/3.jpg';
+import work3 from '../assets/images/work_images/3.png';
 import work4 from '../assets/images/work_images/4.jpg';
 import work5 from '../assets/images/work_images/5.jpg';
 import work6 from '../assets/images/work_images/6.jpg';
@@ -12,7 +12,7 @@ import work9 from '../assets/images/work_images/9.jpg';
 // works small images
 import workSmall1 from '../assets/images/work_images/small/1.png';
 import workSmall2 from '../assets/images/work_images/small/2.png';
-import workSmall3 from '../assets/images/work_images/small/3.jpg';
+import workSmall3 from '../assets/images/work_images/small/3.png';
 import workSmall4 from '../assets/images/work_images/small/4.jpg';
 import workSmall5 from '../assets/images/work_images/small/5.jpg';
 import workSmall6 from '../assets/images/work_images/small/6.jpg';
@@ -140,7 +140,7 @@ const AllData = () => {
       imgSmall: workSmall1,
       bg: '#FFF0F0',
       code: 'Source Code',
-      github: 'https://github.com/jgsamaaa/tattooshopwebsite',
+      githubCode: 'https://github.com/jgsamaaa/tattooshopwebsite',
       langages: 'ReactJS, TailwindCSS ',
       link: 'https://gabrieltattoo.netlify.app/',
       linkText: 'Tattoo Website',
@@ -155,6 +155,7 @@ const AllData = () => {
       imgSmall: workSmall2,
       bg: '#FFF3FC',
       code: 'Source Code',
+      githubCode: 'https://github.com/jgsamaaa/restaurantlandingpage',
       langages: 'ReactJS, TailwindCSS',
       link: 'https://gabrielrestaurant.netlify.app/',
       linkText: 'Bistro Cafe Website',
@@ -164,16 +165,17 @@ const AllData = () => {
     {
       id: '3',
       tag: 'Logo',
-      title: 'Chul urina',
+      title: 'Gym Website',
       img: work3,
       imgSmall: workSmall3,
       bg: '#FFF0F0',
-      client: 'Freepik',
-      langages: 'Illustrator',
-      link: 'https://www.freepik.com/free-photos-vectors/market-logo',
-      linkText: 'www.freepik.com',
+      code: 'Source Code',
+      githubCode: 'https://github.com/jgsamaaa/gym-website',
+      langages: 'ReactJs, TailwindCSS',
+      link: 'https://gabrieltattoo.netlify.app/',
+      linkText: 'GymMe',
       description:
-        '  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.',
+        ' Practicing my coding skill more. Was fun to make especially the carousel. ',
     },
     {
       id: '4',
@@ -329,46 +331,6 @@ const AllData = () => {
       bg: '#EEFBFF',
       description:
         'Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ',
-    },
-  ];
-
-  // Menu items for Homepage One
-  const menuItem = [
-    {
-      id: '01',
-      name: 'Home',
-      link: '/home/homePage',
-      icon: <AiOutlineHome />,
-    },
-    {
-      id: '02',
-      name: 'About',
-      link: '/home/about',
-      icon: <FaRegUser />,
-    },
-    {
-      id: '06',
-      name: 'Resume',
-      link: '/home/resume',
-      icon: <CgNotes />,
-    },
-    {
-      id: '03',
-      name: 'Works',
-      link: '/home/works',
-      icon: <FiCodesandbox />,
-    },
-    {
-      id: '04',
-      name: 'Blogs',
-      link: '/home/blogs',
-      icon: <FaBlogger />,
-    },
-    {
-      id: '05',
-      name: 'Contact',
-      link: '/home/contact',
-      icon: <RiContactsBookLine />,
     },
   ];
 
@@ -577,7 +539,6 @@ const AllData = () => {
     setIsOpen,
     blogsData,
     handleBlogsData,
-    menuItem,
     NavLink,
     menuItemTwo,
     experienceArray,

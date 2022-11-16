@@ -50,7 +50,9 @@ const CommonPortfilo = ({ condition, items }) => {
         <div data-aos="fade">
           <div className="container mb-8   px-4 sm:px-5 md:px-10 lg:px-[60px]">
             <div className="py-12">
-              <h2 className="after-effect after:left-48 lg:mt-0">Portfolio</h2>
+              <h2 className="mt-12 after-effect after:left-48 lg:mt-0">
+                Portfolio
+              </h2>
 
               {/* Portfilo fillter tab start */}
 
@@ -149,7 +151,7 @@ const CommonPortfilo = ({ condition, items }) => {
             <Modal
               isOpen={isOpen}
               onRequestClose={() => setIsOpen(false)}
-              className="flex items-center p-4 my-8 outline-none md:p-8 rounded-2xl"
+              className="flex items-center p-4 my-8 outline-none  md:p-8 rounded-2xl"
             >
               <div className=" w-full md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
                 <div className=" overflow-y-scroll max-h-[80vh] no-scrollbar ">
@@ -179,10 +181,10 @@ const CommonPortfilo = ({ condition, items }) => {
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
                         <FiUser className="hidden mr-2 text-lg sm:block" />
-                        Code :&nbsp;
+                        Github :&nbsp;
                         <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
                           <a
-                            href={singleData?.github}
+                            href={singleData?.githubCode}
                             target="_blank"
                             rel="noopener noreferrer"
                           >

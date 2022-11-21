@@ -398,7 +398,7 @@ const AllData = () => {
       id: '5',
       icon: icon4,
       title: 'Managment',
-      des: 'I  have worked for 7 years in the hospitality industy thus I am confident about managing things',
+      des: 'I  have worked for 7 years in the hospitality industry thus I am confident about managing things',
       color: '#FF75D8',
       bg: '#FFF0F8',
     },

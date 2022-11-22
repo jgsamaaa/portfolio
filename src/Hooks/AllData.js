@@ -437,7 +437,7 @@ const AllData = () => {
       bg: '#EEF5FA',
 
       id1: '05',
-      date1: '2016-2017',
+      date1: '2016',
       title1: 'PC Troubleshooting',
       place1: 'Stella Matutina Academy',
       bg1: '#F2F4FF',

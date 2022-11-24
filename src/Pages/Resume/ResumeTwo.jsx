@@ -6,7 +6,7 @@ import PageTitle from '../../Share/PageTitle';
 import ResumeCard from './ResumeCard';
 
 const ResumeTwo = () => {
-  const { lineArray, resumeArray } = UseData();
+  const { resumeArray } = UseData();
   return (
     <>
       <PageTitle title="Resume"></PageTitle>

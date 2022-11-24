@@ -471,34 +471,6 @@ const AllData = () => {
     },
   ];
 
-  // Working Skills items for Resume page
-  const lineArray = [
-    {
-      id: '01',
-      color: '#FF6464',
-      name: 'Web Design',
-      number: '80',
-    },
-    {
-      id: '02',
-      color: '#9272D4',
-      name: 'Mobile App ',
-      number: '60',
-    },
-    {
-      id: '03',
-      color: '#5185D4',
-      name: 'Illustrator',
-      number: '65',
-    },
-    {
-      id: '03',
-      color: '#CA56F2',
-      name: 'Canva',
-      number: '75',
-    },
-  ];
-
   // Personal information for contact pages
   const contactArray = [
     {
@@ -543,7 +515,6 @@ const AllData = () => {
     menuItemTwo,
     experienceArray,
     resumeArray,
-    lineArray,
     contactArray,
   };
 };

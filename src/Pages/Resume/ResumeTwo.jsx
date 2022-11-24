@@ -2,7 +2,7 @@ import React from 'react';
 import UseData from '../../Hooks/UseData';
 import Footer from '../../Share/Footer';
 import PageTitle from '../../Share/PageTitle';
-import LineItem from './LineItem';
+
 import ResumeCard from './ResumeCard';
 
 const ResumeTwo = () => {
@@ -30,25 +30,15 @@ const ResumeTwo = () => {
           {/* End .container */}
 
           <div className="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20">
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-              <div className="col-span-1">
-                <h4 className="mb-6 text-5xl font-medium dark:text-white">
-                  Knowledges
-                </h4>
-                {/* Experience percent element */}
-                {lineArray.map((item, i) => (
-                  <LineItem item={item} key={i} />
-                ))}
-              </div>
+            <div className="">
+              {/* Workings skills section start */}
 
-              {/* knowledge section start */}
-
-              <div className="col-span-1">
+              <div className="text-center">
                 <h4 className="mb-8 text-5xl font-medium dark:text-white">
                   Working Skills
                 </h4>
 
-                {/* Knowledges items */}
+                {/* Workings skills items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                   <button className="resume-btn">HTML5</button>
@@ -59,6 +49,7 @@ const ResumeTwo = () => {
                   <button className="resume-btn">NextJS</button>
                   <button className="resume-btn">Chackra UI</button>
                   <button className="resume-btn">GIT</button>
+                  <button className="resume-btn">GITHUB</button>
                 </div>
               </div>
 

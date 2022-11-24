@@ -100,10 +100,15 @@ const HomeCard = () => {
               </div>
             </div>
           </div>
-          <button className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
-            <img src={downloadIcon} alt="icon" className="mr-2" />
-            Download CV
-          </button>
+          <a
+            href="James Gabriel Dumaug Resume.pdf"
+            download="James Gabriel Dumaug Resume.pdf"
+          >
+            <button className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
+              <img src={downloadIcon} alt="icon" className="mr-2" />
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>

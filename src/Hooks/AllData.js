@@ -5,7 +5,7 @@ import work2 from '../assets/images/work_images/2.png';
 import work3 from '../assets/images/work_images/3.png';
 import work4 from '../assets/images/work_images/4.png';
 import work5 from '../assets/images/work_images/5.png';
-import work6 from '../assets/images/work_images/6.jpg';
+import work6 from '../assets/images/work_images/6.png';
 import work7 from '../assets/images/work_images/7.jpg';
 import work8 from '../assets/images/work_images/8.jpg';
 import work9 from '../assets/images/work_images/9.jpg';
@@ -15,7 +15,7 @@ import workSmall2 from '../assets/images/work_images/small/2.png';
 import workSmall3 from '../assets/images/work_images/small/3.png';
 import workSmall4 from '../assets/images/work_images/small/4.png';
 import workSmall5 from '../assets/images/work_images/small/5.png';
-import workSmall6 from '../assets/images/work_images/small/6.jpg';
+import workSmall6 from '../assets/images/work_images/small/6.png';
 import workSmall7 from '../assets/images/work_images/small/7.jpg';
 import workSmall8 from '../assets/images/work_images/small/8.jpg';
 import workSmall9 from '../assets/images/work_images/small/9.jpg';
@@ -201,16 +201,17 @@ const AllData = () => {
     {
       id: '6',
       tag: 'Video',
-      title: 'Chul urina',
+      title: 'Calorie Meal Planner',
       img: work6,
       imgSmall: workSmall6,
       bg: '#F4F4FF',
-      client: 'Envato',
-      langages: 'Vimeo',
-      link: 'https://www.envato.com',
-      linkText: 'www.envato.com',
+      code: 'Source Code',
+      githubCode: 'https://github.com/jgsamaaa/foodcalories',
+      langages: 'ReactJS, Spoonacular API',
+      link: 'https://gabrieldailymealplanner.netlify.app/',
+      linkText: 'Daily Meal Planner',
       description:
-        '  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.',
+        ' Put how many calories you want for the day and it will give you 3 meals base on the calories you put in.',
     },
     {
       id: '7',

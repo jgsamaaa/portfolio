@@ -13,7 +13,7 @@ const Footer = ({ bg, condition }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gabriel Dumaug
+          James Gabriel Dumaug
         </a>
         .
       </p>

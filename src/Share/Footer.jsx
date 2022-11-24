@@ -1,7 +1,6 @@
 import React from 'react';
-import UseData from '../Hooks/UseData';
 
-const Footer = ({ bg, condition }) => {
+const Footer = ({}) => {
   return (
     <footer className="overflow-hidden rounded-b-2xl">
       <p className="py-6 text-center text-gray-lite dark:text-color-910 ">

@@ -54,57 +54,6 @@ const CommonPortfilo = ({ condition, items }) => {
               <h2 className="mt-12 after-effect after:left-48 lg:mt-0">
                 Portfolio
               </h2>
-
-              {/* Portfilo fillter tab start */}
-
-              <ul
-                className={`${
-                  item === 2 ? 'mt-[30px] ' : 'mt-[40px]'
-                } flex w-full justify-start md:justify-end  flex-wrap   font-medium`}
-              >
-                <li
-                  className={`${
-                    test === 'All' ? 'text-[#FA5252]' : 'fillter-btn '
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('All')}
-                >
-                  All
-                </li>
-                <li
-                  className={`${
-                    test === 'Video' ? 'text-[#FA5252]' : 'fillter-btn'
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('Video')}
-                >
-                  Video
-                </li>
-                <li
-                  className={`${
-                    test === 'Web Design' ? 'text-[#FA5252]' : 'fillter-btn'
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('Web Design')}
-                >
-                  Web Design
-                </li>
-                <li
-                  className={`${
-                    test === 'Logo' ? 'text-[#FA5252]' : 'fillter-btn ml-0'
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('Logo')}
-                >
-                  Logo
-                </li>
-                <li
-                  className={`${
-                    test === 'UI/UX' ? 'text-[#FA5252]' : 'fillter-btn'
-                  }  `}
-                  onClick={() => handleSearch('UI/UX')}
-                >
-                  Graphic Design
-                </li>
-              </ul>
-
-              {/* Portfilo fillter tab start */}
             </div>
 
             {/* Portfolio items start */}

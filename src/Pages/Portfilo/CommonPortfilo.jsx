@@ -20,13 +20,8 @@ const CommonPortfilo = ({ condition, items }) => {
     setIsOpen,
     singleData,
   } = UseData();
-  const [test, setTest] = useState('All');
-  const handleSearch = (text) => {
-    handleData(text);
-    setTest(text);
-  };
+
   useEffect(() => {
-    setTest('All');
     handleData('All');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

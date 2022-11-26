@@ -7,7 +7,7 @@ import {
   FaMapMarkerAlt,
   FaMobileAlt,
 } from 'react-icons/fa';
-import img from '../assets/images/about/avatar.jpg';
+import img from '../assets/images/about/avatar.png';
 import downloadIcon from '../assets/images/download.png';
 
 const HomeCard = () => {

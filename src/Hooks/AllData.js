@@ -6,7 +6,7 @@ import work3 from '../assets/images/work_images/3.png';
 import work4 from '../assets/images/work_images/4.png';
 import work5 from '../assets/images/work_images/5.png';
 import work6 from '../assets/images/work_images/6.png';
-import work7 from '../assets/images/work_images/7.jpg';
+import work7 from '../assets/images/work_images/7.png';
 import work8 from '../assets/images/work_images/8.jpg';
 import work9 from '../assets/images/work_images/9.jpg';
 // works small images
@@ -16,7 +16,7 @@ import workSmall3 from '../assets/images/work_images/small/3.png';
 import workSmall4 from '../assets/images/work_images/small/4.png';
 import workSmall5 from '../assets/images/work_images/small/5.png';
 import workSmall6 from '../assets/images/work_images/small/6.png';
-import workSmall7 from '../assets/images/work_images/small/7.jpg';
+import workSmall7 from '../assets/images/work_images/small/7.png';
 import workSmall8 from '../assets/images/work_images/small/8.jpg';
 import workSmall9 from '../assets/images/work_images/small/9.jpg';
 
@@ -157,18 +157,20 @@ const AllData = () => {
     },
     {
       id: '4',
-      tag: 'Weather App',
-      title: 'Weather App',
-      img: work4,
-      imgSmall: workSmall4,
-      bg: '#E9FAFF',
+      tag: 'Web Design',
+      title: 'Photographer Portfolio',
+      img: work7,
+      imgSmall: workSmall7,
+      bg: '#FFF0F8',
       code: 'Source Code',
-      githubCode: 'https://github.com/jgsamaaa/weatherapppublic',
-      langages: 'ReactJS, OpenWeather API',
-      link: 'https://weatherforecasttoday.netlify.app/',
-      linkText: 'Weather Today',
-      description: '  I made this project to be more familiar with using API.',
+      githubCode: 'https://github.com/jgsamaaa/portfoliophotographer',
+      langages: 'ReactJS, TailwindCSS, Framer Motion',
+      link: 'https://gabriel-photograperportfolio.netlify.app/',
+      linkText: 'Photographer Portfolio',
+      description:
+        'Made this one to be my other portfolio and to practice my coding skills more.',
     },
+
     {
       id: '5',
       tag: 'Web Design',
@@ -186,7 +188,7 @@ const AllData = () => {
     },
     {
       id: '6',
-      tag: 'Video',
+      tag: 'Web Design',
       title: 'Calorie Meal Planner',
       img: work6,
       imgSmall: workSmall6,
@@ -201,17 +203,17 @@ const AllData = () => {
     },
     {
       id: '7',
-      tag: 'UI/UX',
-      title: 'Chul urina',
-      img: work7,
-      imgSmall: workSmall7,
-      bg: '#FFF0F8',
-      client: 'Envato',
-      langages: 'Photoshop',
-      link: 'https://www.envato.com',
-      linkText: 'www.envato.com',
-      description:
-        '  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.',
+      tag: 'Weather App',
+      title: 'Weather App',
+      img: work4,
+      imgSmall: workSmall4,
+      bg: '#E9FAFF',
+      code: 'Source Code',
+      githubCode: 'https://github.com/jgsamaaa/weatherapppublic',
+      langages: 'ReactJS, OpenWeather API',
+      link: 'https://weatherforecasttoday.netlify.app/',
+      linkText: 'Weather Today',
+      description: '  I made this project to be more familiar with using API.',
     },
     {
       id: '8',

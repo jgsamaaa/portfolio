@@ -164,7 +164,7 @@ const AllData = () => {
       bg: '#FFF0F8',
       code: 'Source Code',
       githubCode: 'https://github.com/jgsamaaa/portfoliophotographer',
-      langages: 'ReactJS, TailwindCSS, Framer Motion',
+      langages: 'ReactJS, TailwindCSS',
       link: 'https://gabriel-photograperportfolio.netlify.app/',
       linkText: 'Photographer Portfolio',
       description:

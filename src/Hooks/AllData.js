@@ -316,8 +316,8 @@ const AllData = () => {
       type: 'Education',
       icon: MdOutlineSchool,
       id: '01',
-      date: '2021',
-      title: 'Uplift Codecamp ',
+      date: '2020',
+      title: 'Uplift',
       place: 'Manila, NCR, Philippines',
       bg: '#FFF4F4',
 

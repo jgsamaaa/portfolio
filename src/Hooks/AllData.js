@@ -303,7 +303,7 @@ const AllData = () => {
     {
       id: '5',
       icon: icon4,
-      title: 'Managment',
+      title: 'Management',
       des: 'I  have worked for 7 years in the hospitality industry thus I am confident about managing things.',
       color: '#FF75D8',
       bg: '#FFF0F8',

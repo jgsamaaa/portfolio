@@ -316,9 +316,9 @@ const AllData = () => {
       type: 'Education',
       icon: MdOutlineSchool,
       id: '01',
-      date: '2021',
-      title: 'Uplift',
-      place: 'Manila, NCR, Philippines',
+      date: '2023',
+      title: 'Zuitt - Coding Bootcamp',
+      place: 'Quezon City, NCR, Philippines',
       bg: '#FFF4F4',
 
       id1: '02',
